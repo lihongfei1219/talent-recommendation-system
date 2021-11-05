@@ -25,7 +25,7 @@ sql MySQL建表
 - [x] ~~热点数据提示~~
 - [x] ~~不通科创要素排序~~
 - [ ] 模型优化
-- [ ]   
+
 
 ## 技术选型
 
@@ -39,4 +39,4 @@ sql MySQL建表
 
 ## 截图展示
 
-![Image text](https://gitee.com/starses/talent-recommendation-system//images/001.png)
+![Image text](https://gitee.com/starses/talent-recommendation-system/blob/master/images/001.png)
