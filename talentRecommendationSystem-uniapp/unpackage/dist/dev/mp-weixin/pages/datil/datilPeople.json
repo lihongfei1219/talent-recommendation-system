@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "人才详细信息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card"
+  }
+}

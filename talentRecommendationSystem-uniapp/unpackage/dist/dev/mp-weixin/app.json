@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/list/list",
+    "pages/datil/datilPeople"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "人才推荐系统",
+    "navigationBarBackgroundColor": "#00ffff",
+    "backgroundColor": "#55ffff"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

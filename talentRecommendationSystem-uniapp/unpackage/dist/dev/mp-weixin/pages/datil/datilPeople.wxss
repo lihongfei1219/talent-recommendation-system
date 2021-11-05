@@ -1,0 +1,21 @@
+
+.footer-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.footer-box__item {
+	font-size: 12px;
+	color: #666;
+}
+.skillElement{
+	font-size: 36rpx;
+}
+

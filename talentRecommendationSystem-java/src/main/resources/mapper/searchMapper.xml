@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lff.talent_recommendation_system.mapper.SearchMapper">
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.lff.talent_recommendation_system.entity.Search" id="searchMap">
+        
+        <!-- 搜索内容 -->
+        <result property="data" column="data"/>
+
+    </resultMap>
+
+
+    <insert id="insertSearch" parameterType="Search" >
+            INSERT  INTO search(data)
+                 values
+                    (#{data});
+    </insert>
+
+
+</mapper>
